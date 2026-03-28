@@ -1,5 +1,6 @@
 python-jobspy
 gspread
+gspread-formatting
 pandas
 google-auth
 google-auth-oauthlib

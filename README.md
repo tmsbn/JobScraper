@@ -7,8 +7,9 @@ An automated tool designed for MBA graduates to find **non-technical** roles in 
 - **Post-MBA Focus**: Specifically targets roles like Senior Vendor Manager, Category Manager, Program Manager, Strategic Sourcing, and Leadership Development Programs (LDP).
 - **Non-Technical Only**: Automatically excludes "Software," "Engineering," "Developer," and "Hardware" roles.
 - **Sponsorship Detection**: Identifies and flags potential sponsorship mentions (H1B, Visa, etc.) in a dedicated column.
-- **Google Sheets Integration**: Automatically creates/updates a spreadsheet named `"Post-MBA Job Listings - Seattle"`.
-- **Intelligent Deduplication**: Only adds new unique jobs to the sheet based on the Job URL.
+- **Color-Coding**: Visual cues for sponsorship status (Green for "Likely", Yellow for "Mentioned").
+- **Google Sheets Integration**: Automatically creates/updates a spreadsheet named `"Post-MBA Job Listings - Seattle"` with frozen headers.
+- **Intelligent Deduplication**: Uses `job_url` as a unique identifier to ensure no duplicate roles are ever posted.
 - **Daily Automation**: Pre-configured GitHub Action to run the scrape every day at 1:00 AM PST.
 
 ## 🛠️ Project Structure
